@@ -2,11 +2,11 @@
 body {
     font-family: 'Roboto';
     font-style: normal;
-    background-color: #E5E5E5;
+    background: #FFFFFF;
 }
 
 .header{
-
+    background: #FFFFFF;
 }
 
 .header-navigtion{
@@ -42,7 +42,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -56,23 +55,22 @@ body {
 /*hero image*/
 
 .hero-section1{
-
+    background: #2E2F42;
 }
 
 .hero-image{
-
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFFFF;
 }
 
 .hero-image-btn{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-    
     display: flex;
     align-items: center;
-    letter-spacing: 0.04em;
-    
     color: #FFFFFF;
     background: #4D5AE5;    
 }
@@ -125,11 +123,14 @@ body {
 
 /*наша команда*/
 .outteam-section{
-
+    background: #F4F4FD;
 }
 
 .outteam-title{
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
 }
 
 .outteam-list{
@@ -137,25 +138,26 @@ body {
 }
 
 .outteam-item{
-
+    background: #FFFFFF;
 }
 
 .outteam-name{
-
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
 }
 
 .outteam-function{
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
 }
 
 /*footer*/
-.footer-block{
-    height: 310px;
-width: 1440px;
-left: 0px;
-top: 2280px;
-border-radius: 0px;
-background: #2E2F42;
+.footer-block{    
+    background: #2E2F42;
 }
 
 .footer-logo-color{

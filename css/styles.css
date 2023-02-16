@@ -18,7 +18,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -41,14 +41,14 @@ body {
 .header-link{      
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #2E2F42;
 }
 
 .header-info{
-    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -61,14 +61,14 @@ body {
 .hero-image{
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.1;
     color: #FFFFFF;
 }
 
 .hero-image-btn{
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     color: #FFFFFF;
@@ -93,14 +93,13 @@ body {
 .hero-advantages-direction{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     color: #2E2F42;
 }
 
 .hero-advantages-text{
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -129,7 +128,7 @@ body {
 .outteam-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
     color: #2E2F42;
 }
 
@@ -144,14 +143,13 @@ body {
 .outteam-name{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     color: #2E2F42;
 }
 
 .outteam-function{
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -165,8 +163,7 @@ body {
 }
 
 .footer-text-color{
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #E7E9FC;
 }

@@ -1,6 +1,6 @@
 {
-    "editor.formatOnSave": true,
-    "files.autoSave": "onFocusChange",
-    "liveServer.settings.port": 5500,
-    "editor.wordWrap": "on"
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "liveServer.settings.port": 5501,
+  "editor.wordWrap": "on"
 }

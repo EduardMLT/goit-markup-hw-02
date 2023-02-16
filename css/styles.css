@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Roboto';
+    font-style: normal;
     background-color: #E5E5E5;
 }
 
@@ -13,7 +14,20 @@ body {
 }
 
 .header-logo{
+    font-family: 'Raleway';    
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
 
+.header-logo-color{
+    color: #4D5AE5; 
 }
 
 .header-list{
@@ -24,11 +38,133 @@ body {
 
 }
 
-.header-link{
-
+.header-link{      
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .header-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+/*hero image*/
+
+.hero-section1{
 
 }
 
+.hero-image{
+
+}
+
+.hero-image-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+    background: #4D5AE5;    
+}
+
+
+ /*переваги*/
+.hero-advantages-section{
+
+}
+
+.hero-advantages-list{
+
+}
+
+.hero-advantages-item{
+
+}
+
+/*напрямок*/
+.hero-advantages-direction{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.hero-advantages-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+/*Що ми робимо-напрямок*/
+.wedoing-direction-section{
+
+}
+
+.wedoing-direction-text{
+
+}
+
+.wedoing-direction-list{
+
+}
+
+.wedoing-direction-foto{
+
+}
+
+/*наша команда*/
+.outteam-section{
+
+}
+
+.outteam-title{
+
+}
+
+.outteam-list{
+
+}
+
+.outteam-item{
+
+}
+
+.outteam-name{
+
+}
+
+.outteam-function{
+
+}
+
+/*footer*/
+.footer-block{
+    height: 310px;
+width: 1440px;
+left: 0px;
+top: 2280px;
+border-radius: 0px;
+background: #2E2F42;
+}
+
+.footer-logo-color{
+    background: #F4F4FD;
+}
+
+.footer-text-color{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7E9FC;
+}

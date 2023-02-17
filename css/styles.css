@@ -1,7 +1,6 @@
 
 body {
     font-family: 'Roboto';
-    font-style: normal;
     background: #FFFFFF;
 }
 
@@ -15,13 +14,10 @@ body {
 
 .header-logo{
     font-family: 'Raleway';    
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.5;
     display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
 }

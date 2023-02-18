@@ -11,6 +11,18 @@
     --color-logo-button: #4D5AE5;
 }
 
+.visually-hidden {  
+    position: absolute;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    width: 1px;
+ }
 
 body {
     font-family: 'Roboto' , sans-serif;
@@ -241,25 +253,31 @@ body {
     background: var(--color-button-link);
 }
 
+.prtf-button-grunt-all:hover,
+.prtf-button-grunt-all:focus{
+    cursor: pointer;
+}
+
 .prtf-button-grunt{
     background: var(--ourteam-grunt-foto);
 }
 
+.prtf-button-grunt:hover,
+.prtf-button-grunt:focus{
+    cursor: pointer;
+}
 
-
-.cards-name{
-    
+.cards-name{    
     font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
     font-size: 20px;
-    color: var(--accent-color-logo-grunt);
+    line-height: 1.2;
+    letter-spacing: 0.02em; 
+    color: var(--accent-color-logo-grunt);   
 }
 
 .cards-direction{
-
     font-size: 16px;
     letter-spacing: 0.02em;    
     line-height: 1.5;
-    color: var(--advantages-ourteam-text);
+    color: var(--advantages-ourteam-text);    
 }

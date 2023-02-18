@@ -4,7 +4,7 @@
     --accent-color-logo-grunt: #2E2F42;
     --accent-color-logo: #F4F4FD;
     --footer-text-color: #E7E9FC;
-    --ourteam-grunt-foto:#F4F4FD;
+    --ourteam-grunt-foto: #F4F4FD;
     --advantages-ourteam-text:#434455;
     --heder-color-info: #434455;
     --color-button-link: #404BBF;
@@ -47,6 +47,7 @@ body {
     display: flex;
     text-transform: uppercase;
     color: var(--accent-color-logo-grunt);
+    text-decoration: none;
 }
 
 .header-logo-color{
@@ -204,4 +205,61 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--footer-text-color);
+}
+
+
+/*------ portfolio -----*/
+
+
+.prtf-filtr{
+
+}
+
+.prtf-button-text-all{
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    color: var(--main-title-color);
+}
+
+.prtf-button-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--color-logo-button);
+}
+
+.prtf-button-grunt-all{
+    background: var(--color-button-link);
+}
+
+.prtf-button-grunt{
+    background: var(--ourteam-grunt-foto);
+}
+
+
+
+.cards-name{
+    
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    color: var(--accent-color-logo-grunt);
+}
+
+.cards-direction{
+
+    font-size: 16px;
+    letter-spacing: 0.02em;    
+    line-height: 1.5;
+    color: var(--advantages-ourteam-text);
 }

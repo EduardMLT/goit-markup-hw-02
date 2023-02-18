@@ -18,12 +18,12 @@ body {
     
 }
 
-/*прибираэмо крапочки*/
+/*прибираємо крапочки*/
 .list{
     list-style: none;
 }
 
-
+/*прибираємо підкреслення і нахил */
 .link{
     text-decoration: none;
     font-style: normal;

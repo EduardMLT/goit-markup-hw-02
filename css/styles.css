@@ -1,12 +1,38 @@
+/*кольори сайту*/
+:root{
+    --main-title-color: #ffffff;
+    --accent-color-logo-grunt: #2E2F42;
+    --accent-color-logo: #F4F4FD;
+    --footer-text-color: #E7E9FC;
+    --ourteam-grunt-foto:#F4F4FD;
+    --advantages-ourteam-text:#434455;
+    --heder-color-info: #434455;
+    --color-button-link: #404BBF;
+    --color-logo-button: #4D5AE5;
+}
+
 
 body {
     font-family: 'Roboto' , sans-serif;
-    background: #FFFFFF;
-    padding: 15px;
+    background: var(--main-title-color);
+    
 }
 
+/*прибираэмо крапочки*/
+.list{
+    list-style: none;
+}
+
+
+.link{
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+
 .header{
-    background: #FFFFFF;
+    
 }
 
 .header-navigtion{
@@ -20,11 +46,11 @@ body {
     line-height: 1.5;
     display: flex;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--accent-color-logo-grunt);
 }
 
 .header-logo-color{
-    color: #4D5AE5; 
+    color: var(--color-logo-button); 
 }
 
 .header-list{
@@ -39,41 +65,35 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--accent-color-logo-grunt);
 }
 
-.header-link:active{
-    color: #404BBF;
-}
-
-.header-link:hover{
-    outline: none;
-    box-shadow: 0 0 0 3px #404BBF;
-   
+.header-link:hover,
+.header-link:focus{
+    color: var(--color-button-link);
 }
 
 .header-info{
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--heder-color-info);
 }
 
 .header-info:active{
-    color: #404BBF;
+    color: var(--color-button-link);
 }
 
 /*hero image*/
 
-.hero-section1{
-    background: #2E2F42;
+.hero-section{
+    background: var(--accent-color-logo-grunt);
 }
 
 .hero-image{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
-    color: #FFFFFF;
+    color: var(--main-title-color);
 }
 
 .hero-image-btn{
@@ -82,23 +102,19 @@ body {
     line-height: 1.5;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: var(--main-title-color);
 }
 
   .hero-button{
-    background: #4D5AE5;
+    background: var(--color-logo-button);
   }
-  .hero-button:hover {
-    background: #404BBF;
+
+  .hero-button:hover ,
+  .hero-button:focus {
+    background: var(--color-button-link);
   }
   
-  .hero-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightskyblue;
-  }
-
-
- /*переваги*/
+   /*переваги*/
 .hero-advantages-section{
 
 }
@@ -116,13 +132,13 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--accent-color-logo-grunt);
 }
 
 .hero-advantages-text{
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--advantages-ourteam-text);
 }
 
 /*Що ми робимо-напрямок*/
@@ -143,49 +159,49 @@ body {
 }
 
 /*наша команда*/
-.outteam-section{
-    background: #F4F4FD;
+.ourteam-section{
+    background: var(--ourteam-grunt-foto);
 }
 
-.outteam-title{
+.ourteam-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    color: #2E2F42;
+    color: var(--accent-color-logo-grunt);
 }
 
-.outteam-list{
+.ourteam-list{
 
 }
 
-.outteam-item{
-    background: #FFFFFF;
+.ourteam-item{
+    background: var(--main-title-color);
 }
 
-.outteam-name{
+.ourteam-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--accent-color-logo-grunt);
 }
 
-.outteam-function{
+.ourteam-function{
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--advantages-ourteam-text);
 }
 
 /*footer*/
 .footer-block{    
-    background: #2E2F42;
+    background: var(--accent-color-logo-grunt);
 }
 
 .footer-logo-color{
-    color: #F4F4FD;
+    color: var(--accent-color-logo);
 }
 
 .footer-text-color{
     font-size: 16px;
     line-height: 1.5;
-    color: #E7E9FC;
+    color: var(--footer-text-color);
 }

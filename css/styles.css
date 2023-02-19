@@ -27,6 +27,7 @@
 body {
     font-family: 'Roboto' , sans-serif;
     background: var(--main-title-color);
+    color: var(--advantages-ourteam-text);
     
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .header-logo{
-    font-family: 'Raleway';    
+    font-family: 'Raleway' , sans-serif;    
     font-weight: 800;
     font-size: 18px;
     line-height: 1.5;
@@ -92,9 +93,17 @@ body {
     color: var(--heder-color-info);
 }
 
-.header-info:active{
+.header-info:hover,
+.header-info:focus{
     color: var(--color-button-link);
 }
+
+
+/* якби був active */
+/* .header-info:active{
+    color: var(--color-button-link);
+} */
+
 
 /*hero image*/
 
@@ -102,7 +111,7 @@ body {
     background: var(--accent-color-logo-grunt);
 }
 
-.hero-image{
+.hero-image{    
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
@@ -110,6 +119,7 @@ body {
 }
 
 .hero-image-btn{
+    font-family: 'Roboto' , sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -160,7 +170,11 @@ body {
 }
 
 .wedoing-direction-text{
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--accent-color-logo-grunt);    
 }
 
 .wedoing-direction-list{
@@ -227,18 +241,8 @@ body {
 
 }
 
-.prtf-button-text-all{
-    font-weight: 500;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    font-size: 16px;
-    color: var(--main-title-color);
-}
-
 .prtf-button-text{
+    font-family: 'Roboto' , sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -249,21 +253,14 @@ body {
     color: var(--color-logo-button);
 }
 
-.prtf-button-grunt-all{
+.prtf-button-grunt:hover,
+.prtf-button-grunt:focus{
     background: var(--color-button-link);
-}
-
-.prtf-button-grunt-all:hover,
-.prtf-button-grunt-all:focus{
-    cursor: pointer;
+    color: var(--ourteam-grunt-foto);
 }
 
 .prtf-button-grunt{
     background: var(--ourteam-grunt-foto);
-}
-
-.prtf-button-grunt:hover,
-.prtf-button-grunt:focus{
     cursor: pointer;
 }
 
